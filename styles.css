@@ -1,0 +1,77 @@
+body {
+margin: 0;
+}
+
+.header{
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.about{
+    background-color: #1f2937;
+}
+
+.item {
+    width: 200px;
+    border-radius: 3%;
+
+}
+
+.item-box {
+    border: 3px solid #3882f6;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+.one,
+.four  {
+   height: 200px;
+}
+
+.chess {
+  width: 500px;
+  border-radius: 3%;
+}
+a{
+    text-decoration: none;
+    size: 18px;
+    color: #e5e7eb;
+}
+
+.hero{
+    margin: 0;
+    color:#f9faf8;
+    size: 48px;
+    font-weight: bolder
+}
+.hero-second {
+    size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    margin: 0;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: #3882f6;
+    border-radius: 5%;
+}
+
+.button{
+    border: 3px #f9faf8 solid;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
