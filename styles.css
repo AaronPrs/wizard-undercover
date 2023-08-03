@@ -37,12 +37,49 @@ flex-direction: column;
 
 }
 
+.chess {
+    width: 500px;
+    height: 300px;
+    border-radius: 3%;
+  }
+  
+  a{
+      text-decoration: none;
+      size: 18px;
+      color: #e5e7eb;
+  }
+  
+  .hero{
+      margin: 0;
+      color:#f9faf8;
+      size: 48px;
+      font-weight: bolder
+  }
+  .hero-second {
+      size: 18px;
+      color: #e5e7eb;
+  }
+  
+  ul{
+      padding-right: 10px;
+      list-style: none;
+      display: flex;
+      gap: 10px;
+  }
+  
+
 /*here ends about and starts product*/
 
 .product {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.info {
+    size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .box {
@@ -76,35 +113,6 @@ flex-direction: column;
    height: 200px;
 }
 
-.chess {
-  width: 500px;
-  height: 300px;
-  border-radius: 3%;
-}
-
-a{
-    text-decoration: none;
-    size: 18px;
-    color: #e5e7eb;
-}
-
-.hero{
-    margin: 0;
-    color:#f9faf8;
-    size: 48px;
-    font-weight: bolder
-}
-.hero-second {
-    size: 18px;
-    color: #e5e7eb;
-}
-
-ul{
-    padding-right: 10px;
-    list-style: none;
-    display: flex;
-    gap: 10px;
-}
 
 button{
     background-color: #3882f6;
@@ -113,30 +121,73 @@ button{
     border-radius: 9%;
 }
 
-.info {
-    size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-}
 
 .quote {
     background-color: #e5e7eb;
     size: 36px;
     font-style: light italic;
-    color: #1f2937;
+    color: #2e3a4b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.act-quote {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contan {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.guy {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
 
 .button{
     border: 1px #f9faf8 solid;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    margin: 20px;
+    max-height:30% ;
 }
 
-.sign-up {
+.sign-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 248px;
+}
+
+#sign {
     background-color: #3882f6;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 100px;
+}
+
+.bap{
+     display: flex;
+     align-items: center;
+     margin: 0px 25px;
 }
 
 .footer{
     background-color: #1f2937;
     color: #f9faf8;
+    text-align: center;
 }
 
