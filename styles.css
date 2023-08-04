@@ -7,13 +7,13 @@ flex-direction: column;
 
 .header{
     color: #f9faf8;
-    background-color: #1f2937;
+    background-color: #756A5E;
     display: flex;
     justify-content: space-between;
 }
 
 .about{
-    background-color: #1f2937;
+    background-color: #756A5E;
     display: flex;
     justify-content: space-evenly;
     height: 400px;
@@ -79,7 +79,11 @@ flex-direction: column;
 .info {
     size: 36px;
     font-weight: bolder;
-    color: #1f2937;
+    color: #756A5E;
+}
+
+.text-card {
+     color:  #756A5E
 }
 
 .box {
@@ -102,7 +106,7 @@ flex-direction: column;
 }
 
 .border-box {
-    border: 3px solid #3882f6;
+    border: 3px solid #a67b5b;
     border-radius: 5%;
     width: 200px;
     height: 200px;
@@ -115,10 +119,10 @@ flex-direction: column;
 
 
 button{
-    background-color: #3882f6;
+    background-color: #a67b5b;
     color: #f9faf8;
     border: #3882f6;
-    border-radius: 9%;
+    border-radius: 15px;
 }
 
 
@@ -126,7 +130,7 @@ button{
     background-color: #e5e7eb;
     size: 36px;
     font-style: light italic;
-    color: #2e3a4b;
+    color: #53514e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -172,11 +176,12 @@ button{
 }
 
 #sign {
-    background-color: #3882f6;
+    background-color: #a67b5b;
     color: #f9faf8;
     display: flex;
     justify-content: space-evenly;
     padding: 10px 100px;
+    border-radius: 15px;
 }
 
 .bap{
@@ -186,7 +191,7 @@ button{
 }
 
 .footer{
-    background-color: #1f2937;
+    background-color: #756A5E;
     color: #f9faf8;
     text-align: center;
 }
